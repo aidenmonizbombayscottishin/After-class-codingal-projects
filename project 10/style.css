@@ -1,0 +1,36 @@
+body{
+    background-cOlor: #0d1117;
+    color: #C9D1D9;
+}
+
+h1 {
+    color: #085ab7;
+}
+
+a {
+    color: #696969
+}
+a:hover {
+    color: rgb(108, 108, 231)
+}
+
+ul>li:hover {
+    color: rgb(108, 108, 231);
+}
+
+p::first-letter {
+    font-size: 50px;
+    color: red;
+}
+
+ul>li::before{
+    content: "🧪";
+}
+    
+a:after {
+    content: "🧪";
+}
+
+p , h1 {
+    background-color: rgb(255, 166, 0 );
+}
